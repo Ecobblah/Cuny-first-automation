@@ -3,3 +3,8 @@ when adding words make sure to enter ADD with a space and if with multiple words
 If you want to add a verb put (V) at the end of each word, if noun add (N).
 To stop adding word Enter stop with a space.
 If you click on the display menu bar you can select verb or nouns that sorted on the right and unsorted on the left.
+
+Text doc should be like this
+Jump(V)
+RUN(V)
+apple(N)
