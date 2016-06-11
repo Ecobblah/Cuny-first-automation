@@ -5,6 +5,10 @@ it will take a seat for you and swap (need to comment out the swap) end the prog
 I'm not responsible if it messes up your Cunyfirst info by any possible way. My Program never comes close to 
 a delete button for a class, but things happen so becareful.
 
+#Requirements
+Need 2 things to add to your library "JTatoo-1.6.11" and "selenium-server-standalone-2.53.0" Just google them up and you will 
+find the download page.
+
 #Problems i haven't fixed yet.
 
 1. If you enter the wrong password the program will crash.
