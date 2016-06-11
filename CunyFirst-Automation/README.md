@@ -18,4 +18,4 @@ has N classes in the shopping cart ill use a for loop with an array that has "P_
 
 5. The GUI Interface positioning is off.
 
-This Program is not final, There a lot of silly mistakes in my code and usless stuff on it too.
+This Program is NOT FINAL, There a lot of silly mistakes in my code and usless stuff on it too.
