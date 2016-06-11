@@ -2,7 +2,7 @@ This is an Automation program that automates every hour checking cunyfirst if a 
 it will take a seat for you and swap (need to comment out the swap) end the program and print out in the text field congrats!.
 
 #WARNING  
-I'm not responsible if it messes up your schedule by any possible way. My Program never comes close to 
+I'm not responsible if it messes up your Cunyfirstinfo by any possible way. My Program never comes close to 
 a delete button for a class, but things happen so becareful.
 
 #Problems i haven't fixed yet.
