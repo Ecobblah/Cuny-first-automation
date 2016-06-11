@@ -1,0 +1,40 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Manny (Admin)
+ */
+public class Cunyfirst {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) throws InterruptedException {
+        /*Places the UI NIMBUS CODE HERE because it was but in the GUI main and idk why it was put there
+            Where i customize my GUI interface. Went on jtattoo site download their jar file and picked
+            whatever look and feel style i like but must start with com.jtattoo.plaf."Style name lowercase"."Style name upper case"LookAndFeel
+            i can also use built in Windows 10 look and feel.
+        */
+        try {
+           //Website from http://www.jtattoo.net/index.html
+            javax.swing.UIManager.setLookAndFeel("com.jtattoo.plaf.noire.NoireLookAndFeel");
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(CunyfirstGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(CunyfirstGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(CunyfirstGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(CunyfirstGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        
+        CunyfirstGUI GUI = new CunyfirstGUI();
+        //User can see the Gui
+        new CunyfirstGUI().setVisible(true);
+    }
+    
+}
