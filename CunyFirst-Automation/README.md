@@ -7,7 +7,7 @@ a delete button for a class, but things happen so becareful.
 
 #Requirements
 Need 2 things to add to your library "JTatoo-1.6.11"  and "selenium-server-standalone-2.53.0" JAR files not the demos Just google them up and you will 
-find the download page. Make sure you download firefox web broswer "https://www.mozilla.org/en-US/firefox/new/?scene=2&f=66".
+find the download page. Make sure you download firefox web broswer "https://www.mozilla.org/en-US/firefox/new/?scene=2&f=66" and run it.
 
 #Problems i haven't fixed yet.
 
