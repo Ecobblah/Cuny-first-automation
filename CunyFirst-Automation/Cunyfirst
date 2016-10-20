@@ -14,10 +14,10 @@ public class Cunyfirst {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws InterruptedException {
-        /*Places the UI NIMBUS CODE HERE because it was but in the GUI main and idk why it was put there
-            Where i customize my GUI interface. Went on jtattoo site download their jar file and picked
+        /*
+            Went on jtattoo site download their jar file and picked
             whatever look and feel style i like but must start with com.jtattoo.plaf."Style name lowercase"."Style name upper case"LookAndFeel
-            i can also use built in Windows 10 look and feel.
+            i can also use built in Windows 10 look and feel. The rest Under it is default to run the GUI.
         */
         try {
            //Website from http://www.jtattoo.net/index.html
