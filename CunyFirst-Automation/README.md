@@ -1,4 +1,4 @@
-This is an Automation program that automates every hour checking cunyfirst if a class is full. If the class is available 
+This is an Automation program that automates every hour checking Cunyfirst if a class is full. If the class is available 
 it will take a seat for you and swap (need to comment out the swap if you don't want to swap) end the program and print out in the text field congrats!
 
 #WARNING  
@@ -23,7 +23,7 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads (I have not teste
 2. Inside the CunyfirstGUI code line from 193 to 222 is the swap classes code, comment it out if you don't want to swap any classes.
 
 3. On line 183 "driver.findElement(By.id("P_SELECT$0")).click();" represents the number of classes which is only one. If you have 2 classes all you have to do is copy and paste "driver.findElement(By.id("P_SELECT$0")).click();" and  change P_SELECTt$0 to P_SELECT$1
- then that it for 3 classes in shopping cart just copy and paste and change to P_SELECT$2, as you can see there a pattern. In case your curious I'm getting P_SELECT from their site itself, if you right click the box icon you will see the ID in HTML.
+ then that it for 3 classes in shopping cart just copy and paste and change to P_SELECT$2, as you can see there a pattern. In case you're curious I'm getting P_SELECT from their site itself, if you right click the box icon you will see the ID in HTML.
 
 4. After that run the program Enter your Cunyfirst user ID and password then it will do the rest. It advisable to not move your mouse when the Firefox browser is OPEN on your screen and doing it thing, so that why when you don't feel like watching it work just minimize it and you can do whatever you want on your computer.
 
