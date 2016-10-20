@@ -5,4 +5,4 @@ Then that will be the of the program and outputs you with the new students with 
 The point of -999 so my program will know when to store Total number of credits and overall GPA.
 
 #Overall
-If i were to make the program for Myself, i would make a GUI and use maybe SQL to store all the data that is needed.
+If i were to make the program for Myself, i would make a GUI to make it look nicer and use maybe SQL to store all the data that is need and mau make it a Web application.
