@@ -1,0 +1,77 @@
+import java.util.ArrayList;
+
+public class Student {
+	String firstName;
+	String lastName;
+	String major;//was never used because the document never instructed to output major.
+	ArrayList<Course> Courses = new ArrayList<Course>();
+	String idNum;
+	Double totalCredits;
+	Double GPA;
+	int i=0;
+	Course c=new Course();	
+	//Frist name
+	public void setFirstName(String name){
+		firstName=name;
+	}
+	public String getFirstName(){
+		return firstName;
+	}
+	//Last name
+	public void setlastName(String name){
+		lastName=name;
+	}
+	public String getlastName(){
+		return lastName;
+	}
+	//Major 
+	public void setMajor(String m){
+		major=m;
+	}
+	public String getMajor(){
+		return major;
+	}
+	//Courses
+	
+	//Total Credits
+	public void setTotalCredits(Double t ){
+		totalCredits=t;
+	}
+	public Double setTotalCredits(){
+		return totalCredits;
+	}
+	//GPA
+	public void setGPA(Double g){
+		GPA=g;
+	}
+	public Double getGPA(){
+		return GPA;
+	}
+	//IDNUMBER
+	public void setidNum(String i){
+		idNum=i;
+	}
+	public String getidNum(){
+		return idNum;
+	}
+	public void addcourse(Course c){
+		Courses.add(c);
+	}
+	//Student ID id equal
+	public Boolean equality(String Id,ArrayList<Student> array){
+		for (int i=0;i<array.size();i++){
+			if(array.get(i).getidNum().substring(0, 6).equals(Id)){
+				return true;
+			}
+		}
+		return false;
+	}
+	//Returns students info in an organized way.
+	public String tostring(int i,Student s){
+		Course course=new Course();
+		return lastName+","+firstName +","+idNum+"\n"+
+				c.tostring(i,s)+"-999\n"+ totalCredits+","+GPA;
+	}
+	
+	
+}
