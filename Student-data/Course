@@ -1,0 +1,38 @@
+
+public class Course  {
+	String courseNum;
+	Double numCredits;
+	String gradeRec;
+	//courseNum
+	public void setcourseNum(String c){
+		courseNum=c;
+	}
+	public String getcourseNum(){
+		return courseNum;
+	}
+	//numCredits
+	public void setCredit(Double n){
+		numCredits=n;
+	}
+	public Double getCredit(){
+		return numCredits;
+	}
+	//gradeRec
+	public void setgradeRec(String g){
+		gradeRec=g;
+	}
+	public String getgradeRec(){
+		return gradeRec;
+	}
+	//returns course info in a organized way.
+	public String tostring(int j,Student s){
+		String output = "";
+		while(true){
+			for(int i=0;i<s.Courses.size();i++){
+				output=output+s.Courses.get(i).getcourseNum()+","+s.Courses.get(i).getCredit()+","+s.Courses.get(i).getgradeRec()+"\n";
+			}
+			return output;
+		}
+
+	}
+}
