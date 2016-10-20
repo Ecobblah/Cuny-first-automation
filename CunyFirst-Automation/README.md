@@ -6,8 +6,8 @@ I'm not responsible if it messes up your Cunyfirst info by any possible way. My 
 a delete button for a class, but things happen so be careful.
 
 #Requirements
-Need 2 things to add to your library "JTatoo-1.6.11"  and "selenium-server-standalone-3.0.1.jar" JAR files not the demos Just google them up and you will 
-find the download page, but if there an updated versions of it that fine. Make sure you download geckodriver web browser to use Firefox browser "https://github.com/mozilla/geckodriver/releases" if using windows make sure you pick either Windows file if Mac pick the Mac file. When that done make sure you place those drivers in your project folder, because as you can see in CunyfirstGUi.java on line 161 I placed mine inside my Cunyfirst project "System.setProperty("webdriver.firefox.marionette", "C://Users/User/Emmanuel_workspace/Personal  Projects/Cunyfirst/Firefox/geckodriver.exe");" 
+Need 2 things to add to your library "JTatoo-1.6.11"  and "selenium-server-standalone-3.0.1.jar" JAR files Not the demos. Google them up and you will 
+find the download page, but if there an updated versions of it that fine. Make sure you download geckodriver to use Firefox browser "https://github.com/mozilla/geckodriver/releases" if using windows make sure you pick Windows file if Mac pick the Mac file. When that done make sure you place those drivers in your project folder, because as you can see in CunyfirstGUi.java on line 161 I placed mine inside my Cunyfirst project "System.setProperty("webdriver.firefox.marionette", "C://Users/User/Emmanuel_workspace/Personal  Projects/Cunyfirst/Firefox/geckodriver.exe");" 
 
 #Sites I used
 https://www.mozilla.org/en-US/firefox/new/ (Firefox browser itself if you don't have)
@@ -23,7 +23,7 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads (I have not teste
 2. Inside the CunyfirstGUI code line from 193 to 222 is the swap classes code, comment it out if you don't want to swap any classes.
 
 3. On line 183 "driver.findElement(By.id("P_SELECT$0")).click();" represents the number of classes which is only one. If you have 2 classes all you have to do is copy and paste "driver.findElement(By.id("P_SELECT$0")).click();" and  change P_SELECTt$0 to P_SELECT$1
- then that it for 3 classes in shopping cart just copy and paste and change to P_SELECT$2, as you can see there a pattern. In case you're curious I'm getting P_SELECT from their site itself, if you right click the box icon you will see the ID in HTML.
+ then that it. For 3 classes in shopping cart just copy and paste and change to P_SELECT$2, as you can see there a pattern. In case you're curious I'm getting P_SELECT from their site itself, if you right click the box icon you will see the ID in HTML.
 
 4. After that run the program Enter your Cunyfirst user ID and password then it will do the rest. It advisable to not move your mouse when the Firefox browser is OPEN on your screen and doing it thing, so that why when you don't feel like watching it work just minimize it and you can do whatever you want on your computer.
 
