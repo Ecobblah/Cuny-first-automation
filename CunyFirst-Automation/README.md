@@ -12,7 +12,7 @@ find the download page, but if there an updated versions of it that fine. Make s
 #Sites I used
 https://www.mozilla.org/en-US/firefox/new/ (Firefox browser itself if you don't have)
 https://github.com/mozilla/geckodriver/releases (geckodriver)
-http://www.seleniumhq.org/download/(Selenium stand alone)
+http://www.seleniumhq.org/download/        (Selenium stand alone)
 http://www.jtattoo.net/Download.html(Jtattoo not the Demo just the Jar file please)
 https://sites.google.com/a/chromium.org/chromedriver/downloads (I have not tested Chrome driver yet so don't use)
 
