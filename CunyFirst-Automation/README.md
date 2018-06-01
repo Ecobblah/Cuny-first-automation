@@ -1,3 +1,4 @@
+# i'm discontinuing this project.
 This is an Automation program that automates every hour checking Cunyfirst if a class is full. If the class is available 
 it will take a seat for you or swap classes. At the end of the program it prints out in the text field congrats! (need to comment out the swap if you don't want to swap)
 
